@@ -7,10 +7,13 @@
     <package name = "default" extends = "struts-default">
         <action name="index" class="com.example.jakartatemplate.IndexAction">
             <result name="success">
-                successpage.jsp
+                index.jsp
             </result>
             <result name="error">
                 errorpage.jsp
+            </result>
+            <result name="Input">
+
             </result>
         </action>
         <!--<action name="index">
